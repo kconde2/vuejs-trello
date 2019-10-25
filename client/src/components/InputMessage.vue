@@ -4,9 +4,9 @@
 
 <script>
 export default {
-  name: 'InputMessage',
+  name: "InputMessage",
   props: {
     setMessage: Function
   }
-}
+};
 </script>
