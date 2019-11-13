@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <Board></Board>
+    <router-link to="/">Board</router-link>
+    <router-link to="/list/1">List 1</router-link>
+    <router-link to="/list/2">List 2</router-link>
+    <router-view name="header"></router-view>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -46,8 +50,8 @@ export default {
 
 <style>
 body {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #app {

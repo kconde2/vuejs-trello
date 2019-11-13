@@ -1,17 +1,18 @@
 <template>
-  <div>
-      <slot></slot>
-  </div>
+  <form>
+    <slot></slot>
+  </form>
 </template>
 
 <script>
 export default {
-    props: {
-        initialValues: Object
-    },
-  data: () => ({
-
-  })
+  props: {
+    initialValues: Object
+  },
+  data: () => ({}),
+  methods: {
+    // submit
+  }
 };
 </script>
 
